@@ -1,0 +1,106 @@
+t Jn  820160:25
+
+rst:x1 (OWRNRST
+I��:013 (P_A
+�eM}	==)
+conif�:�SIWP:xee
+ckdv�0,qdrv:000,_rvG��04�0|����0,ddv0x`0,p_dr:0x0
+md:IX cock iv:1
+od0ff030,ln:486
+o0tZ������4
++�:�07000len:656
++0408040,le:30
+eC� �0080b4
+Button[0]::configureAsConfigButton
+Button[0] setHoldTime: 5000
+Button[0] setMulticlickTime: 300
+SD: initial mode: Start in cfg mode (legacy, deprected)
+ *** Supla - starting initialization (platform 0)
+Clock not configured, using default clock
+SD: add flag DEVICE_CONFIG_SUPPORTED
+SD: add flag CALCFG_RESTART_DEVICE
+Storage initialization
+readStorage: 8; Read: [53 55 50 4C 41 1 0 1 ]
+Storage: Number of sections 1
+Reading section: 0
+readStorage: 7; Read: [3 0 0 FF FF FF FF ]
+Section type: 3; size: 0
+storedCRC 65535, CRC calc 65535
+LittleFsConfig: file "/supla-dev.cfg" size 68
+LittleFsConfig: initializing storage from file...
+LittleFsConfig: init result success
+ *** Supla - Config initalization
+SD: add flag CALCFG_ENTER_CFG_MODE
+SD: add flag CALCFG_FACTORY_RESET_SUPPORTED
+Automatic firmware update is disabled
+Device mode: 0
+Config incomplete: missing Wi-Fi SSID
+LAST STATE ADDED: Missing Wi-Fi SSID
+Config incomplete: missing Wi-Fi password
+LAST STATE ADDED: Missing Wi-Fi password
+Config incomplete: missing server
+Config incomplete: missing email
+Security level: Supla CA
+ *** Supla - Config load for elements
+SD: add flag CALCFG_IDENTIFY_DEVICE
+RemoteDeviceConfig: Registering field 0x000000001
+Button[0] don't load config
+RemoteDeviceConfig: Registering field 0x000000010
+Clock: automaticTimeSync: 1
+ *** Supla - Config load for elements done
+ *** Supla - Load state storage
+Validating storage state section with current device configuration
+Storage state section validation successful
+ *** Supla - Load state storage done
+ *** Supla - Init elements
+Button[0]: Initialized: pin 0, pullUp 1, invertLogic 1, state 1
+ *** Supla - Init elements done
+Config incomplete: deviceMode = CONFIG
+LAST STATE ADDED: Missing server address
+Current status: [3] Missing server address
+LAST STATE ADDED: Missing email address
+Current status: [32] Missing email address
+GUID: BC7574C1CA27E4CC51F0506DF9DF4812
+Device name: SUPLA-ESP32
+Device software version: SDK 25.12-dev
+ *** Supla - Initializing network layer
+[Wi-Fi] Network AP/hostname: SUPLA-ESP32-EC94CB42B458
+Using Supla protocol version 23
+Current status: [5] SuplaDevice initialized
+Config incomplete: deviceMode = CONFIG
+Wi-Fi SSID missing
+[Wi-Fi] setConfigMode
+WiFi: enter config mode with SSID: "SUPLA-ESP32-EC94CB42B458"
+Starting local web server
+LAST STATE ADDED: Config mode
+Current status: [40] Config mode
+ *** Supla - Initialization done
+ *** Self-test ***
+TEST: ManufacturerID is 0
+TEST failed: ProductID is empty
+TEST failed: missing public RSA key
+TEST failed: automatic firmware update is disabled
+TEST failed: config encryption is disabled
+TEST failed: invalid certificates format
+TEST failed: security log is disabled
+TEST failed: initial mode is set to config mode
+ *** Self-test done ***
+0
+0
+-------------------------------------------------
+0
+0
+-------------------------------------------------
+0
+0
+-------------------------------------------------
+0
+0
+-------------------------------------------------
+0
+0
+-------------------------------------------------
+0
+0
+-------------------------------------------------
+0
